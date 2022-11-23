@@ -39,5 +39,4 @@ class ConditionalApplicationTests {
         System.out.println("prodapp " + entityFromProdapp.getBody());
         Assertions.assertEquals("Current profile is production", entityFromProdapp.getBody());
     }
-
 }
